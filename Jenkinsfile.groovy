@@ -1,4 +1,6 @@
 #!/usr/bin/groovy
 
 def x = 1
-print x
+stage('Print x'){
+  print x
+}
